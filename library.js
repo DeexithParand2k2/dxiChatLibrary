@@ -1,3 +1,11 @@
+//global variables
+var dxiUserTextColor;
+var dxiUserBorderColor;
+//variable declaration for bot chat
+var dxiBotTextColor;
+var dxiBotBorderColor;
+
+
 // 1.
 function dxiCreateMainInterface(dxiBackColor,dxiBoxColor){
     var bodyDiv = document.getElementsByTagName("body")[0];

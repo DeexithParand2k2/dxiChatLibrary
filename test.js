@@ -2,6 +2,7 @@
 var dxiBackColor = "#0c0e0c";
 var dxiBoxColor = "#d8323c";
 
+//Can these be declared as global variables
 //variable declaration for user chat
 var dxiUserTextColor;
 var dxiUserBorderColor;
@@ -19,10 +20,7 @@ function start(){
     dxiUserChatInterface("lightgreen","white");
     dxiBotChatInterface("white","lightgreen");
 
-    //call those functions with sampletext
-    // dxiUserChat("some sample user chat");
-    // dxiUserChat("some sample user chat");
-    // dxiBotChat("some sample bot chat");
+    //after this dxiUserChat triggered based on the askQuest() function trigger
     for(let i=0;i<15;i++){
         dxiUserChat("some sample user chat");
         dxiBotChat("some sample bot chat");
